@@ -1,0 +1,2 @@
+# Development dependencies (tests only)
+pytest==8.3.4

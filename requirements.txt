@@ -1,0 +1,11 @@
+# Runtime dependencies (pinned to the versions tested with this project)
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+openai==1.59.6
+pypdf==5.4.0
+python-docx==1.1.2
+python-multipart==0.0.20
+numpy==2.2.4
+python-dotenv==1.0.1
+httpx==0.28.1
+pydantic==2.10.4

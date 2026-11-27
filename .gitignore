@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# App data: uploaded files and the vector store
+data/
+
+# Test artefacts
+.pytest_cache/
