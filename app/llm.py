@@ -70,7 +70,9 @@ def build_chat_messages(question: str, context_chunks: list[dict]) -> list[dict]
         "1. Answer only from the provided context. Do not use outside knowledge.\n"
         "2. If the answer is not in the context, say \"I don't know based "
         "on the provided documents.\"\n"
-        "3. Quote or mention which source document the answer comes from."
+        "3. Quote or mention which source document the answer comes from.\n"
+        "4. Reply in the same language as the user's question "
+        "(for example, answer in Russian if the question is in Russian)."
     )
     user_prompt = f"Context:\n{context}\n\nQuestion: {question}"
     return [
